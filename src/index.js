@@ -216,7 +216,7 @@ function handleQueSave() {
 
 function handleSubmit(event) {
   event.preventDefault();
-  inputQuery = input.value;
+ let inputQuery = input.value;
   watchListBecon = false;
   paginationBeacon = false;
   page = 1;
